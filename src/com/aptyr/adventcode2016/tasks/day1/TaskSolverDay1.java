@@ -78,9 +78,9 @@ public class TaskSolverDay1 extends TaskSolver {
     @Override
     protected void solve() {
         String[] moves = input.split(", ");
+        Pattern pattern = Pattern.compile("([A-Z])([0-9]{1,})");
 
         for (String move : moves) {
-            Pattern pattern = Pattern.compile("([A-Z])([0-9]{1,})");
             Matcher matcher = pattern.matcher(move);
 
             int distance = 0;
@@ -185,17 +185,9 @@ public class TaskSolverDay1 extends TaskSolver {
         void checkStep(Position position) {
             if (firstRepeatPosition == null && steps.contains(position)) {
                 firstRepeatPosition = position;
+            } else {
+                steps.add(position);
             }
-
-            steps.add(position);
-        }
-
-        @Override
-        public String toString() {
-            return "{" +
-                    "x=" + x +
-                    ", y=" + y +
-                    '}';
         }
 
         @Override
