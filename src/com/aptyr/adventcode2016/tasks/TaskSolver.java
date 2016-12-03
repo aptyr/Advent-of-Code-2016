@@ -19,6 +19,6 @@ public abstract class TaskSolver implements Task {
 
     protected String input;
 
-    protected abstract void solve();
+    protected abstract void init();
 
 }

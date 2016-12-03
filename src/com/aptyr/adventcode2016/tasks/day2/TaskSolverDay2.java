@@ -1,4 +1,4 @@
-package com.aptyr.adventcode2016.tasks.day1;
+package com.aptyr.adventcode2016.tasks.day2;
 
 import com.aptyr.adventcode2016.tasks.TaskSolver;
 
@@ -97,7 +97,7 @@ public class TaskSolverDay2 extends TaskSolver {
     }
 
     @Override
-    protected void solve() {
+    protected void init() {
 
     }
 }

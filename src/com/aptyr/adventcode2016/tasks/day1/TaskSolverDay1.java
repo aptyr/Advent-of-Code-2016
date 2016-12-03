@@ -72,11 +72,11 @@ public class TaskSolverDay1 extends TaskSolver {
                 "L1, L4, R2, L3, R5, R3, " +
                 "R1, L3";
 
-        solve();
+        init();
     }
 
     @Override
-    protected void solve() {
+    protected void init() {
         String[] moves = input.split(", ");
         Pattern pattern = Pattern.compile("([A-Z])([0-9]{1,})");
 

@@ -17,21 +17,26 @@ package com.aptyr.adventcode2016;
 
 import com.aptyr.adventcode2016.tasks.Task;
 import com.aptyr.adventcode2016.tasks.day1.TaskSolverDay1;
-import com.aptyr.adventcode2016.tasks.day1.TaskSolverDay2;
+import com.aptyr.adventcode2016.tasks.day2.TaskSolverDay2;
+import com.aptyr.adventcode2016.tasks.day3.TaskSolverDay3;
 
 
 public class Main {
 
     private Task day1 = new TaskSolverDay1();
     private Task day2 = new TaskSolverDay2();
+    private Task day3 = new TaskSolverDay3();
 
     public static void main(String[] args) {
         Main main = new Main();
 
-        main.day1.solvePart1();
-        main.day1.solvePart2();
+//        main.day1.solvePart1();
+//        main.day1.solvePart2();
+//
+//        main.day2.solvePart1();
+//        main.day2.solvePart2();
 
-        main.day2.solvePart1();
-        main.day2.solvePart2();
+        main.day3.solvePart1();
+        main.day3.solvePart2();
     }
 }
