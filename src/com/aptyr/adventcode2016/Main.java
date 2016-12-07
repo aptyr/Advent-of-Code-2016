@@ -22,6 +22,7 @@ import com.aptyr.adventcode2016.tasks.day3.TaskSolverDay3;
 import com.aptyr.adventcode2016.tasks.day4.TaskSolverDay4;
 import com.aptyr.adventcode2016.tasks.day5.TaskSolverDay5;
 import com.aptyr.adventcode2016.tasks.day6.TaskSolverDay6;
+import com.aptyr.adventcode2016.tasks.day7.TaskSolverDay7;
 
 
 public class Main {
@@ -32,6 +33,7 @@ public class Main {
     private Task day4 = new TaskSolverDay4();
     private Task day5 = new TaskSolverDay5();
     private Task day6 = new TaskSolverDay6();
+    private Task day7 = new TaskSolverDay7();
 
     public static void main(String[] args) {
         Main main = new Main();
@@ -46,8 +48,10 @@ public class Main {
 //        main.day4.solvePart2();
 //        main.day5.solvePart1();
 //        main.day5.solvePart2();
-        main.day6.solvePart1();
-        main.day6.solvePart2();
+//        main.day6.solvePart1();
+//        main.day6.solvePart2();
+        main.day7.solvePart1();
+        main.day7.solvePart2();
 
     }
 }
